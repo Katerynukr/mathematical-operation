@@ -89,6 +89,7 @@ namespace mathematical_operation
                             }
                             catch (DivideByZeroException)
                             {
+                                //why doesnt show a message
                                 Console.WriteLine("adsdas");
                                 throw new DivideByZeroException("You try to devide by zero");
                             }
